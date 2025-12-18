@@ -1,6 +1,38 @@
 # CUT-POS-Updates
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
+
+# Actualización del Sistema - Version 1.2.0 Diciembre 2025
+
+Esta actualización introduce mejoras significativas en la gestión de suplidores y el control de inventario, diseñadas para agilizar el flujo de trabajo y proporcionar una mayor visibilidad de sus operaciones.
+
+## 🚀 Resumen de Novedades
+
+### 1. Gestión Ágil de Suplidores
+*   **Acceso Directo**: Se ha añadido un botón **"+"** al lado del campo de suplidor en el formulario de productos.
+*   **Creación al Instante**: Ahora puede registrar un suplidor nuevo sin salir de la pantalla de creación de productos, eliminando interrupciones en su flujo de trabajo.
+
+### 2. Automatización de Historial de Compras
+*   **Registro Inteligente**: Cada vez que asocie un producto a un suplidor (ya sea al crear un producto nuevo o al editar uno existente), el sistema genera automáticamente una entrada en el historial de ese suplidor.
+*   **Control Total**: Mantenga un registro automático de qué productos le provee cada empresa sin necesidad de entradas manuales adicionales.
+
+### 3. Visibilidad Mejorada en Inventario
+*   **Nueva Columna de Suplidor**: La tabla principal de inventario ahora incluye una columna que muestra el nombre del suplidor para cada artículo.
+*   **Identificación Rápida**: Identifique de un vistazo el origen de sus productos directamente desde la lista general.
+
+### 4. Historial de Compras Detallado
+*   **Vista Expandible**: El historial de compras de los suplidores ahora es interactivo. Al hacer clic en una compra, se despliega un desglose detallado.
+*   **Información Desglosada**: Visualice exactamente qué se incluyó en cada registro, incluyendo:
+    *   Nombre del producto.
+    *   Cantidad asociada.
+    *   Precio de compra unitario.
+    *   Subtotales por artículo.
+
+### 5. Correcciones y Estabilidad
+*   Se ha resuelto un problema que impedía la carga correcta de los detalles en el historial de compras en ciertas condiciones.
+*   Optimización del sistema de capas visuales para permitir el uso de múltiples ventanas emergentes (modales) de forma fluida.
+
+
 # Version 1.1.9
 Corrección de error: "UNIQUE constraint failed: settings.key " al activar la licencia
 
