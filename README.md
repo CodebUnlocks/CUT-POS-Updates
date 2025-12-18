@@ -2,6 +2,20 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.2.1 Diciembre 2025
+
+## 🚀 Resumen de Novedades
+
+### 1. Refinamiento en la Interfaz y Consistencia Visual
+*   **Reubicación de Botones**: Los botones de acción ("Agregar Producto", "Nueva Reparación", etc.) se han movido a la sección de filtros. Esto despeja el encabezado y agrupa las acciones de búsqueda y creación en un solo lugar.
+*   **Estandarización de Tamaños**: Todos los botones de acción ahora tienen un tamaño uniforme (`h-10`) que coincide con los campos de entrada, creando una línea visual limpia.
+*   **Mejoras en Configuración**: Los botones de "Guardar Cambios" en la pantalla de configuración ahora se encuentran alineados a la derecha, siguiendo los estándares modernos de diseño de formularios.
+*   **Consistencia en Punto de Venta**: Los botones de apertura y cierre de caja han sido estandarizados para coincidir con el resto de la interfaz, mejorando la coherencia visual en todo el sistema.
+*   **Encabezados Informativos**: Se han restaurado y mejorado los encabezados de las páginas, incluyendo iconos descriptivos y contadores de elementos para una navegación más intuitiva.
+
+---
+
+
 # Actualización del Sistema - Version 1.2.0 Diciembre 2025
 
 Esta actualización introduce mejoras significativas en la gestión de suplidores y el control de inventario, diseñadas para agilizar el flujo de trabajo y proporcionar una mayor visibilidad de sus operaciones.
