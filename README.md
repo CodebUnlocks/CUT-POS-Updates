@@ -1,6 +1,11 @@
 # CUT-POS-Updates
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
+# Version 1.1.8
+Corrección de error: "Entrada incompleta" al activar la licencia
+Este plan corrige el error de "entrada incompleta" que se produce al intentar activar el software. El error se debe a una sentencia SQL incorrecta en el controlador IPC license:activate.
+
+
 # CUT-POS and Repair Shop
 
 ![Dashboard Preview](screenshots/dashboard.PNG)
