@@ -2,6 +2,22 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+
+# Actualización del Sistema - Version 1.2.4 19/12/2025
+
+## 🚀 Resumen de Novedades
+
+### 🔍 Busqueda Inteligente Profesional
+- **Búsqueda Global Expandida**: Ahora puedes encontrar productos buscando por prácticamente cualquier campo:
+    - **Nombre y Descripción** (Para búsquedas por palabras clave).
+    - **Marca y Modelo** (Ideal para dispositivos electrónicos).
+    - **Categoría y Suplidor** (Para filtrado rápido).
+    - **Color y Capacidad** (Busca directamente "Azul" o "256GB").
+    - **Serial / IMEI** (Busca una unidad específica instantáneamente).
+- **Consistencia Total**: Estas mejoras aplican tanto al Punto de Venta (POS) como a la gestión de Inventario.
+
+
+
 # Actualización del Sistema - Version 1.2.3 18/12/2025
 
 ## 🚀 Resumen de Novedades
