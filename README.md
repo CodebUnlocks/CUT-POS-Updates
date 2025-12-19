@@ -2,6 +2,25 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.2.3 18/12/2025
+
+## 🚀 Resumen de Novedades
+
+### 📊 Rediseño de Arqueo de Caja
+- **Cero Desplazamiento**: Nuevo diseño compacto que permite ver todas las denominaciones y el resumen en una sola pantalla sin necesidad de usar la barra de desplazamiento.
+- **Grilla de Denominaciones**: Optimización a 5 columnas para un desglose más claro y rápido.
+- **Mejor Legibilidad**: Se eliminaron los textos minúsculos, reemplazándolos por etiquetas de 10px y valores grandes y en negrita.
+- **Pie de Página Inteligente**: Las notas ahora se integran horizontalmente con los botones de acción para ganar espacio vertical.
+
+### 📱 Mejoras en Seguimiento de IMEI / Serial
+- **Flexibilidad de Precios**: El campo "Precio Venta" principal ya no es obligatorio al activar el seguimiento individual, permitiendo trabajar exclusivamente con los precios de cada unidad.
+- **Edición Fluida**: Se corrigió el comportamiento de los campos de costo/precio en la tabla de unidades; ahora permiten borrar valores y escribir con total libertad.
+- **Corrección de Errores**: Solucionado el error "Too few parameter values" al actualizar productos con múltiples unidades.
+- **Prioridad de Precios en POS**: El sistema ahora prioriza estrictamente el precio de la unidad seleccionada sobre el precio base del producto.
+- **Interfaz de Selección**: El botón en el POS ahora es más intuitivo, mostrando "Seleccionar IMEI/SERIAL" con un icono representativo.
+
+
+
 # Actualización del Sistema - Version 1.2.2 Diciembre 2025
 
 ## 🚀 Resumen de Novedades
