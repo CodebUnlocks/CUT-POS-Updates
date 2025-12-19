@@ -2,6 +2,16 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.2.2 Diciembre 2025
+
+## 🚀 Resumen de Novedades
+
+### 1. Estabilidad y Diseño de Modales
+*   **Layout Flexbox Robusto**: Se ha rediseñado la estructura interna de todos los formularios modales (`Productos`, `Clientes`, `Reparaciones`, etc.) usando Flexbox.
+*   **Adiós al Desbordamiento**: Los botones de acción ya no se cortan ni se desbordan de la ventana, asegurando que siempre sean accesibles sin importar el tamaño del contenido.
+*   **Corrección de Errores Críticos**: Se resolvieron fallos que causaban pantallas en blanco al intentar añadir productos o reparaciones nuevas debido a dependencias faltantes.
+
+
 # Actualización del Sistema - Version 1.2.1 Diciembre 2025
 
 ## 🚀 Resumen de Novedades
