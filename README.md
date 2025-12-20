@@ -3,6 +3,34 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 
 
 
+# Actualización del Sistema - Version 1.2.6 20/12/2025
+
+## 🚀 Resumen de Novedades
+
+- **Nuevas Funcionalidades:**
+  - **Vista Previa en Ventas:** Ahora puedes ver exactamente cómo saldrá impreso el recibo antes de confirmar la venta, con la opción de corregir si es necesario.
+  - **Precios por Cantidad:** El sistema ahora permite definir precios especiales de mayoreo (ej: precio diferente si llevan 3 o más unidades).
+  - **Creación Rápida:** Agiliza tu trabajo creando productos nuevos sin salir de la pantalla de reparaciones.
+
+- **Impresión y Reportes:**
+  - **Diseño Unificado:** Todos los documentos (facturas, tickets de reparación y reportes) ahora tienen un diseño profesional y consistente para impresoras térmicas.
+  - **Vistas Previas Reales:** "Lo que ves es lo que obtienes". Las vistas previas en pantalla son idénticas al papel impreso.
+  - **Generación de Reportes Mejorada:** Los reportes diarios y de cierre de caja se generan más rápido y con el formato correcto de ticket.
+
+- **Mejoras Visuales (Interfaz):**
+  - **Dashboard Interactivo:** Las tarjetas del panel principal ahora reaccionan al pasar el mouse, haciéndolas sentir más modernas.
+  - **Orden Visual:** Se corrigieron alineaciones en los textos para que todo se vea más organizado y limpio.
+  - **Historial a la Mano:** Nuevas opciones para ver el historial reciente directamente desde el tablero principal.
+
+- **Correcciones y Estabilidad:**
+  - **Cierre de Caja:** Se solucionó un problema que impedía guardar las notas finales al cerrar el turno.
+  - **Caja Chica:** Se corrigió la clasificación automática al reponer fondos para que no se marque erróneamente como gasto de transporte.
+  - **Estadísticas Precisas:** Se corrigió un error donde los números del tablero no se reiniciaban correctamente después de cerrar caja.
+  - **Datos de Ejemplo:** Se actualizaron los datos de prueba para que puedas explorar mejor todas las funciones del sistema.
+  - **Limpieza General:** Se eliminaron archivos viejos del sistema para mantenerlo rápido y ligero.
+
+
+
 # Actualización del Sistema - Version 1.2.5 20/12/2025
 
 ## 🚀 Resumen de Novedades
