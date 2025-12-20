@@ -3,6 +3,32 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 
 
 
+# Actualización del Sistema - Version 1.2.5 20/12/2025
+
+## 🚀 Resumen de Novedades
+
+### 🛠️ Mejoras en Reparaciones
+- **Flujo de Impresión Automatizado**: Al crear una nueva orden o guardar cambios, el sistema ahora abre automáticamente la vista previa del ticket.
+- **Botones Dinámicos**: Se renombraron los botones a "Crear Orden e Imprimir Ticket" para mayor claridad.
+- **Ticket Doble**: Se mantiene y optimiza el formato de ticket doble (Cliente + Taller) para nuevas recepciones.
+
+### 💰 Punto de Venta (POS) y Servicios
+- **Lógica de Servicios Virtuales**: Los productos marcados como "Servicio" ahora pueden venderse sin restricciones de stock (incluso con stock 0).
+- **Exclusión de Stock Bajo**: Los servicios ya no ensucian las estadísticas de "Stock Bajo" en el Dashboard ni en los filtros de Inventario.
+- **Layout de Carrito**: Se optimizó el ancho del panel derecho y el tamaño de las columnas para una mejor experiencia visual.
+- **Impuestos por Defecto**: La opción de impuestos ahora viene desactivada por defecto al iniciar el carrito.
+
+### 🖥️ Interfaz de Usuario
+- **Modo Aplicación Limpio**: Se eliminó la barra de menú estándar de Windows (Archivo, Editar, Ver, etc.) para ofrecer una interfaz más inmersiva y profesional.
+- **Grilla de Productos**: Los resultados de búsqueda en el POS se muestran ahora en una grilla de 2 columnas para mejor lectura.
+
+### ⚙️ Correcciones Técnicas
+- **Persistencia de Descuentos**: Se arregló el problema que impedía escribir decimales en el campo de descuento.
+- **Sincronización de Clientes**: Mejorada la selección y validación de clientes en tiempo real.
+- **Validación de Caja**: Reforzada la lógica que impide cerrar la aplicación si la caja registradora sigue abierta.
+
+
+
 # Actualización del Sistema - Version 1.2.4 19/12/2025
 
 ## 🚀 Resumen de Novedades
