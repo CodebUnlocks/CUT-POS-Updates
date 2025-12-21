@@ -2,6 +2,45 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.2.7 21/12/2025
+
+
+## 🚀 Resumen de Novedades
+
+## Mejoras Visuales y de Interfaz
+
+- **Botones Más Profesionales:** Todos los botones de "Confirmar", "Cerrar", "Imprimir" y "Guardar" ahora tienen un diseño más moderno y consistente en toda la aplicación.
+  - Bordes más redondeados para una apariencia más suave
+  - Tamaños uniformes que facilitan hacer clic
+  - Los botones secundarios ahora tienen bordes visibles para mejor distinción
+
+- **Agregar Productos Más Rápido:** Nuevo botón "+" al lado del buscador en el Punto de Venta que te permite crear productos nuevos sin salir de la pantalla de ventas.
+
+- **Iconos Consistentes:** Los botones de agregar rápido ("+") ahora tienen el mismo estilo en todas las pantallas:
+  - Fondo blanco con borde gris
+  - Icono azul que resalta
+  - Efecto visual al pasar el mouse
+
+## Reporte Diario Mejorado
+
+- **Desglose de Efectivo:** El reporte de cierre de caja ahora muestra el detalle completo de billetes y monedas contados:
+  - Cantidad de cada denominación (billetes de 2000, 1000, 500, etc.)
+  - Valor total por denominación
+  - Total general contado
+
+- **Totales Más Claros:** 
+  - "Total Esperado" siempre se muestra correctamente
+  - La diferencia (excedente o faltante) se calcula y muestra de forma precisa
+  - Todos los montos con formato de moneda profesional (separadores de miles)
+
+## Beneficios para el Usuario
+
+✅ **Interfaz más moderna** - Botones y controles con diseño actualizado  
+✅ **Trabajo más rápido** - Menos clics para agregar productos  
+✅ **Reportes más completos** - Información detallada del efectivo en caja  
+✅ **Experiencia consistente** - Todo se ve y funciona de manera uniforme
+
+
 
 # Actualización del Sistema - Version 1.2.6 20/12/2025
 
