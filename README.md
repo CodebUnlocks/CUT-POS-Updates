@@ -9,11 +9,11 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 ## 🚀 Resumen de Novedades
 
 ## Mejoras Visuales y de Interfaz y otras mejoras minimas.
+**Cambio de logo e icono de app:**
 
 
 
 # Actualización del Sistema - Version 1.2.7 21/12/2025
-
 
 ## 🚀 Resumen de Novedades
 
