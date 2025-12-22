@@ -2,6 +2,16 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+
+# Actualización del Sistema - Version 1.2.8 22/12/2025
+
+
+## 🚀 Resumen de Novedades
+
+## Mejoras Visuales y de Interfaz y otras mejoras minimas.
+
+
+
 # Actualización del Sistema - Version 1.2.7 21/12/2025
 
 
