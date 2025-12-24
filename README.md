@@ -3,8 +3,27 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 
 
 
-# Actualización del Sistema - Version 1.2.8 22/12/2025
+# Actualización del Sistema - 24/12/2025
 
+## 🚀 Resumen de Novedades
+
+## Mejoras Realizadas:
+
+1. **Reparaciones - Pantalla de Pago Final:**
+   - Ahora, al momento de entregar un equipo, verás una pantalla clara llamada "Registrar Pago Final".
+   - Aquí podrás ver el balance pendiente, aplicar ITBIS o RNC, y ver el total exacto a cobrar antes de cerrar la orden.
+   - Las opciones de impuestos y descuentos se movieron a esta pantalla para que no estorben durante el trabajo diario.
+
+2. **Punto de Venta (POS):**
+   - **Botón de ITBIS Corregido:** Ahora el botón para aplicar impuestos funciona correctamente y suma el 18% al total de la venta.
+   - **Campo de Descuento:** Volvimos a poner el campo de descuento donde estaba originalmente (siempre visible) para que sea más rápido de usar.
+
+3. **Impresión de Facturas:**
+   - **Corrección de Logo:** Solucionamos el problema que impedía que el logo de tu empresa saliera en los tickets de reparación y facturas finales.
+
+
+
+# Actualización del Sistema - Version 1.2.8 22/12/2025
 
 ## 🚀 Resumen de Novedades
 
