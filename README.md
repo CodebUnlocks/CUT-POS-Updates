@@ -2,6 +2,69 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.3.0 25/12/2025
+
+## 🚀 Resumen de Novedades
+
+### ✨ Nueva Funcionalidad: Búsqueda de Facturas a Crédito en el POS
+
+Ahora puedes buscar y cobrar facturas pendientes directamente desde el punto de venta.
+
+**Cómo funciona:**
+- En el buscador del POS, escribe el número de factura (ejemplo: INV-001)
+- Las facturas a crédito aparecerán con un fondo **naranja** para identificarlas fácilmente
+- Al hacer clic en una factura, se abre automáticamente la ventana de pago
+- La factura NO se agrega al carrito - solo se abre para completar el pago
+- El sistema verifica que la caja esté abierta antes de permitir el pago
+
+**Beneficios:**
+- Cobro más rápido de facturas pendientes
+- No necesitas salir del POS para buscar cuentas por cobrar
+- Menos pasos para completar pagos atrasados
+
+---
+
+### 📊 Mejoras en el Dashboard
+
+**Nueva pestaña "Cuentas por Cobrar":**
+- En la sección de historial, ahora hay una pestaña dedicada a cuentas pendientes
+- Agrupa automáticamente todas las facturas a crédito y reparaciones completadas sin pagar
+- Ordenadas de más reciente a más antigua para mejor control
+
+**Orden cronológico mejorado:**
+- Todas las listas (Ventas, Reparaciones, Cobros) ahora muestran lo más reciente arriba
+- Más fácil encontrar las transacciones del día
+
+---
+
+### 🔧 Correcciones y Mejoras Técnicas
+
+**Botón de confirmar pago:**
+- Corregido un error que impedía completar pagos en algunas situaciones
+- Ahora funciona correctamente con bases de datos antiguas y nuevas
+
+**Mensajes del sistema:**
+- Solucionados errores en las notificaciones de la aplicación
+- Todas las alertas y confirmaciones funcionan correctamente
+
+**Protección de caja:**
+- El sistema siempre verifica que la caja esté abierta antes de procesar pagos
+- Si intentas pagar con la caja cerrada, te pregunta si deseas abrirla primero
+
+---
+
+## 📝 Notas Importantes
+
+- **Compatibilidad:** Esta actualización funciona con bases de datos existentes sin necesidad de reinstalar
+- **Respaldos:** Se recomienda hacer un respaldo de la base de datos antes de actualizar (desde Configuración > Respaldo de Datos)
+
+---
+
+## 🎯 Próximas Mejoras
+
+Si tienes sugerencias o encuentras algún problema, no dudes en reportarlo.
+
+
 
 # Actualización del Sistema - Version 1.2.9 24/12/2025
 
