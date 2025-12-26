@@ -1,6 +1,9 @@
 # CUT-POS-Updates
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
+# Actualización del Sistema - Version 1.3.1 25/12/2025
+Update silencioso...
+
 
 # Actualización del Sistema - Version 1.3.0 25/12/2025
 
