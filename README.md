@@ -1,6 +1,25 @@
 # CUT-POS-Updates
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
+
+# Actualización del Sistema - Version 1.3.2 - 28/12/2025
+
+## 🚀 Resumen de Novedades
+
+### 🛠️ Soporte para Múltiples Equipos por Reparación
+¡Ahora puedes gestionar más de un dispositivo en una sola orden de reparación! Esta es una de las funciones más solicitadas para agilizar el trabajo cuando un cliente trae varios equipos a la vez.
+
+*   **Registro Múltiple:** Agrega tantos equipos como necesites a una misma orden con el nuevo botón "Añadir Otro Equipo".
+*   **Detalles Individuales:** Cada equipo tiene sus propios campos para Tipo, Marca, Modelo, Serial/IMEI y descripción del problema.
+*   **Diseño Optimizado:** El formulario ha sido reorganizado para que los datos sean fáciles de leer y llenar, con una alineación clara y profesional.
+*   **Impresión Detallada:** El ticket de reparación ahora lista todos los equipos incluidos en la orden, permitiendo que tanto tú como el cliente tengan un registro claro de lo que se recibió.
+*   **Búsqueda Mejorada:** En el listado de reparaciones, ahora puedes ver un resumen de todos los equipos de la orden y buscarlos por nombre fácilmente.
+
+---
+*Esta actualización ha sido diseñada para mejorar la eficiencia de tu taller y brindar una mejor experiencia a tus clientes.*
+
+
+
 # Actualización del Sistema - Version 1.3.1 25/12/2025
 Update silencioso...
 
