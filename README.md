@@ -2,6 +2,24 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.3.3 - 28/12/2025
+
+## 🚀 Resumen de Novedades
+
+### 📊 Mejoras en Reportes y Dashboard
+- **Nuevo Orden de Tarjetas**: Ahora las "Reparaciones" aparecen antes que el "Inventario" tanto en el Dashboard como en la sección de Reportes para un flujo de trabajo más lógico.
+- **Resumen Financiero en Reportes**: Se agregaron tarjetas de **Subtotal**, **Pagado** y **Pendiente** en todos los reportes de Ventas y Reparaciones.
+
+### 🌎 Localización y Estética
+- **Traducción Completa**: Todos los estados de reparación (Entregada, En Reparación, etc.) y métodos de pago ahora se muestran totalmente en español.
+- **Botones Modernizados**: Se estandarizó el diseño de los botones en todo el sistema, con bordes más redondeados y un aspecto más premium, especialmente en los movimientos de caja.
+
+### 🛠️ Correcciones Técnicas
+- **Estabilidad de Reportes**: Se corrigió un error de sintaxis que causaba fallos al cargar ciertos informes de facturación.
+- **Consistencia Visual**: Ajuste de colores y formas en botones de "Cancelar" y "Registrar" para mantener la armonía visual.
+
+
+
 # Actualización del Sistema - Version 1.3.2 - 28/12/2025
 
 ## 🚀 Resumen de Novedades
