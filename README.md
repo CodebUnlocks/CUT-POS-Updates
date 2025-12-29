@@ -2,6 +2,22 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.3.6 - 29/12/2025
+
+## 🚀 Resumen de Novedades
+
+### 📦 Compras y Pagos a Suplidores
+- **Historial Detallado**: Ahora puedes ver exactamente cuánto has pagado y cuánto debes de cada compra directamente en la lista.
+- **Registro de Abonos**: Se agregó un botón para registrar pagos parciales fácilmente desde el historial.
+- **Seguridad en Datos**: Mejoramos la precisión del historial para que solo veas los pagos que corresponden a cada compra específica.
+
+### 🛠️ Formulario de Reparaciones
+- **Selector de Marcas**: Ya no tienes que escribir el nombre de la marca cada vez. Ahora puedes elegirla de una lista.
+- **Agregar Marcas Rápido**: Incluimos un botón "+" para que registres marcas nuevas al instante sin cerrar lo que estás haciendo.
+- **Diseño Mejorado**: Los campos ahora están mejor organizados y alineados para que el formulario sea más fácil de llenar.
+
+
+
 # Actualización del Sistema - Version 1.3.5 - 29/12/2025
 
 ## 🚀 Reinvención del Módulo de Compras y Suplidores
