@@ -2,6 +2,29 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.3.7 - 29/12/2025
+
+Esta actualización introduce mejoras significativas en la gestión de reparaciones y el control de caja, enfocándose en la consistencia de datos y la transparencia financiera.
+
+### 🧾 Control de Caja Detallado (Nuevo)
+- **Historial de Movimientos**: Ahora el modal de "Movimiento de Caja" incluye una lista detallada de todos los depósitos y retiros realizados durante el turno.
+- **Impresión de Comprobantes**: Cada movimiento de caja (entrada o salida) ahora puede imprimirse individualmente como un ticket térmico, facilitando la firma y el archivo físico.
+- **Transparencia**: Los registros incluyen la hora exacta, el motivo detallado y el usuario que realizó el movimiento.
+
+### 🔧 Mejoras en el Formulario de Reparación
+- **Selector de Marcas**: Se reemplazó el campo de texto libre por un selector de marcas pre-registradas, asegurando que los reportes por marca sean precisos.
+- **Acceso Rápido**: Ahora puede agregar una nueva marca directamente desde el formulario de reparación sin perder el progreso de la orden.
+- **Selección Automática**: Al crear una nueva marca, el sistema la selecciona automáticamente para el equipo que está registrando.
+
+### 📊 Historial de Compras (Mejorado)
+- **Visualización de Pagos**: El historial de compras ahora permite ver el detalle de los abonos realizados bajo la nueva lógica de pagos parciales.
+- **Sincronización con Caja**: Todos los pagos realizados a suplidores se reflejan correctamente en el balance de caja y reportes diarios.
+
+---
+*Nota: Estas mejoras han sido diseñadas para reducir errores humanos y proporcionar un rastro de auditoría claro para cada centavo que entra o sale del negocio.*
+
+
+
 # Actualización del Sistema - Version 1.3.6 - 29/12/2025
 
 ## 🚀 Resumen de Novedades
