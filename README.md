@@ -2,6 +2,36 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.3.5 - 29/12/2025
+
+## 🚀 Reinvención del Módulo de Compras y Suplidores
+
+Hemos rediseñado por completo la gestión de compras para que sea más rápida e intuitiva, unificando todo en una sola pantalla.
+
+### ✨ Novedades Principales
+
+1.  **Vista Unificada de "Compras y Suplidores"**
+    - Ahora tienes dos pestañas principales: **Suplidores** y **Historial**.
+    - Puedes cambiar entre gestionar tus suplidores y ver todas tus compras sin salir de la pantalla.
+
+2.  **Panel de Control Inteligente**
+    - **Todo en un solo lugar:** El buscador, las pestañas y los botones de acción ahora viven en una tarjeta fija en la parte superior.
+    - **Buscador Global:** La misma barra de búsqueda te sirve para encontrar suplidores o buscar compras específicas por número o nombre.
+
+3.  **Historial de Compras Mejorado**
+    - Nueva pestaña dedicada para ver **todas** las compras realizadas.
+    - **Filtros Rápidos:** Botones de "Todos", "Pagados" y "Pendientes" integrados directamente en el panel principal para filtrar al instante.
+    - Detalles expandibles para ver los productos de cada compra sin perder el contexto.
+
+4.  **Registro de Compras Simplificado**
+    - El botón **"Registrar Compra"** está siempre visible y accesible.
+    - Se solucionaron problemas donde a veces el número de la compra podía duplicarse.
+
+### 🛠️ Otras Mejoras
+- Interfaz más limpia y consistente con el Panel de Control (Dashboard).
+- Mejor organización del espacio en pantalla.
+
+
 # Actualización del Sistema - Version 1.3.4 - 28/12/2025
 
 ## 🚀 Resumen de Novedades
