@@ -2,6 +2,28 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.3.4 - 28/12/2025
+
+## 🚀 Resumen de Novedades
+
+Hemos realizado mejoras importantes en el **Registro de Compras** y la gestión del inventario para que tu trabajo sea más rápido y sin errores.
+
+### 🛒 Registro de Compras Mejorado
+*   **Gestión Inteligente de Pagos:**
+    *   Ahora, al seleccionar **"Al Contado"**, el sistema marca automáticamente la compra como **Pagada** y completa el monto total. ¡Un clic menos!
+    *   Al seleccionar **"A Crédito"**, se marca como **Pendiente** y te permite definir cuánto abonaste inicialmente.
+*   **Inventario al Instante:** No importa si la compra es a crédito o al contado, los productos se **suman a tu inventario inmediatamente** al guardar la compra.
+*   **Diseño Más Limpio:** Restauramos la visualización anterior que te gustaba, organizando mejor los campos de Suplidor, Método de Pago y Totales para que sea más agradable a la vista.
+
+### 🔍 Búsqueda y Productos
+*   **Búsqueda Avanzada:** Ahora puedes buscar productos en la compra no solo por nombre, sino también por **Código de Barras** o **SKU**.
+*   **Creación Rápida:** Si un producto no existe, puedes crearlo directamente desde el formulario de compra sin salir de la pantalla.
+
+### 🛠️ Correcciones y Estabilidad
+*   **Adiós al Error de "Duplicado":** Solucionamos el problema que impedía guardar una compra si tardabas mucho con el formulario abierto. Ahora el sistema detecta si el número de factura ya se usó y genera uno nuevo automáticamente para que nunca pierdas tu trabajo.
+
+
+
 # Actualización del Sistema - Version 1.3.3 - 28/12/2025
 
 ## 🚀 Resumen de Novedades
