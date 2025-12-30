@@ -2,6 +2,12 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.3.8 - 29/12/2025
+
+Esta actualización introduce mejoras menores en la gestión de reparaciones y el control de caja, enfocándose en la consistencia de datos y la transparencia financiera.
+
+
+
 # Actualización del Sistema - Version 1.3.7 - 29/12/2025
 
 Esta actualización introduce mejoras significativas en la gestión de reparaciones y el control de caja, enfocándose en la consistencia de datos y la transparencia financiera.
