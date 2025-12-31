@@ -2,7 +2,13 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
-# Actualización del Sistema - Version 1.3. - 30/12/2025
+# Actualización del Sistema - Version 1.4.0 - 30/12/2025
+
+Actualizacion silenciosa, cambios menores...
+
+
+
+# Actualización del Sistema - Version 1.3.9 - 30/12/2025
 
 Reparado error "UNIQUE constraint error in Order Numbers"
 
