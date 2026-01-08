@@ -2,6 +2,20 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.4.6 - 08/01/2026
+
+### 🛠️ Mejoras en Reparaciones y Facturación
+- **Validación de Pago:** Ahora el sistema no permite confirmar la entrega de una reparación en efectivo si el monto recibido es menor al total pendiente. Esto evita errores al momento de cobrar.
+- **Recibos más Claros:** Los tickets de reparación ahora muestran un desglose detallado que incluye:
+  - Subtotal de piezas y mano de obra.
+  - Impuestos (ITBIS) y Descuentos aplicados.
+  - Abonos realizados anteriormente.
+  - Monto pagado hoy y el cambio devuelto (en efectivo).
+- **Contacto del Cliente:** Se ha incluido el número de teléfono del cliente en todos los recibos, tanto en ventas como en reparaciones, para facilitar el contacto.
+
+
+
+
 # Actualización del Sistema - Version 1.4.0 - 30/12/2025
 
 Actualizacion silenciosa, cambios menores...
