@@ -2,6 +2,39 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+
+# Actualización del Sistema - Version 1.5.0 - 23/09/2026
+
+## 🔐 Nueva ventana de acceso
+
+- **Todo en un solo lugar:** Entrar, Crear cuenta y Vincular ahora viven en la misma ventana con pestañas. Ya no saltas de una pantalla a otra.
+- **Crear cuenta:** registra tu negocio (empresa, email, usuario y clave) y la cuenta queda pendiente de activación manual. Te avisamos por email cuando esté lista.
+- **Vincular:** ata tu instalación a la cuenta que creaste en Crear cuenta. Si aún no tienes cuenta, créala primero ahí. Conservas todos tus datos locales. La pestaña se desactiva sola cuando ya vinculaste.
+- **Al vincular, entras con tu usuario nuevo:** la ventana de acceso lo deja escrito, solo digitas tu clave.
+- **Modo Demo:** entra con `demo` / `demo123` y prueba el sistema completo. Al salir, todo lo que registres se borra solo. Nada toca tu base de datos real.
+
+## 📶 Estado del servidor y suscripción
+
+- **Píldora Servidor Activo:** el menú lateral muestra si hay conexión con el servidor, verificado automáticamente al abrir la app.
+- **Botón de plan:** debajo verás tu plan y los días restantes (ej. `Plan basico · 30 día(s)`). En demo muestra una suscripción de ejemplo que nunca vence.
+- **Modal de suscripción:** tócalo y verás estado, vencimiento, última verificación y botón para reintentar.
+- **Sin cobro automático:** la renovación se gestiona manualmente con soporte.
+- **Sin vínculo no entras:** la app pide vincular antes de dejarte pasar (solo demo entra sin vínculo). Sin internet, sigues trabajando offline.
+
+## 🧪 Datos de prueba reconstruidos
+
+- **Cargar Datos de Prueba:** ahora llena productos con series, clientes, suplidores, reparaciones en todos los estados, ventas al contado y a crédito, compras, caja chica y gastos generales. Sirve para probar cada función.
+- **Limpiar Datos de Prueba:** borra todo lo de prueba sin tocar tus datos reales.
+
+## 🛠️ Mejoras internas
+
+- La app ya no se bloquea si el actualizador falla al arrancar.
+- Marca unificada a **CUTPOS** en ventanas, títulos y documentos.
+- Mensajes de error claros cuando el servidor no responde.
+
+
+
+
 # Actualización del Sistema - Version 1.4.6 - 08/01/2026
 
 ### 🛠️ Mejoras en Reparaciones y Facturación
