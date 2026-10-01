@@ -2,6 +2,22 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+
+# Actualización del Sistema - Version 1.5.2 - 01/10/2026
+
+Corrige el acceso de cuentas nuevas después de activarlas en el panel.
+
+🔗 Vincular crea tu usuario local
+
+- **Entra con tu usuario nuevo:** al vincular, la app crea tu usuario local con la misma clave. Ya no verás "Usuario no encontrado o inactivo".
+- **Re-vincular actualiza:** si cambias tu clave en el servidor, vincula de nuevo y la app la sincroniza.
+
+🔄 Aviso para instalaciones ya vinculadas
+
+- **Re-vincula una vez:** si tu instalación se vinculó antes de esta versión, verás un aviso ámbar. Vincula de nuevo con tu email/usuario y clave para completar el acceso.
+- **Tus datos se conservan:** el proceso no toca ventas, inventario ni reparaciones.
+
+
 # Actualización del Sistema - Version 1.5.1 - 01/10/2026
 
 Usa tu pistola Zebra en Caja e Inventario. Conecta por USB y escanea.
