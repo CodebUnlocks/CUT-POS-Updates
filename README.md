@@ -3,6 +3,31 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 
 
 
+
+# Actualización del Sistema - Version 1.5.3 - 01/10/2026
+
+Acceso renovado y recuperación de clave por correo.
+
+👤 Entrar sin vueltas
+
+- **¿No tienes cuenta?** Debajo de Iniciar Sesión toca Crear cuenta o Probar Demo. La demo entra directo, sin escribir nada.
+- **Un solo panel:** Crear o vincular cuenta reúne todo. A la izquierda Vincular cuenta (ámbar), a la derecha Crear cuenta. Si tu equipo ya está vinculado, Vincular se desactiva solo.
+- **Detección sola:** si la cuenta ya existe, el panel te lo dice y te deja en Vincular con tu email listo.
+
+🔑 ¿Olvidaste tu clave?
+
+- **Pide el enlace:** debajo del botón Iniciar Sesión, toca "¿Olvidaste tu clave?", escribe tu email o usuario y revisa tu correo.
+- **Crea la nueva:** abre el enlace (vence en 1 hora, un solo uso) y escribe tu clave nueva dos veces.
+- **Entra directo:** usa tu clave nueva en Entrar. La app la sincroniza sola, sin pasos extra.
+
+📧 Correo de CUTPOS
+
+- **Revisa spam:** el correo llega desde el remitente oficial. Si no lo ves, busca en spam o solicita otro enlace.
+- **Seguridad:** el enlace es personal. Si no fuiste tú, ignóralo y tu clave sigue igual.
+
+
+
+
 # Actualización del Sistema - Version 1.5.2 - 01/10/2026
 
 Corrige el acceso de cuentas nuevas después de activarlas en el panel.
