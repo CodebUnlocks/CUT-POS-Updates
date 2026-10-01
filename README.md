@@ -2,6 +2,52 @@
 Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.5.1 - 30/09/2026
+
+# Novedades versión 1.5.1: lector de código de barras
+
+Usa tu pistola Zebra en Caja e Inventario. Conecta por USB y escanea.
+
+## Vende más rápido en Caja
+
+Apunta y dispara. El producto entra solo al carrito y ves su nombre en pantalla.
+
+Si el código no existe, la Caja te avisa y deja el código escrito para buscar o crear el producto.
+
+Funciona con productos seriados: al escanear se abre la lista de IMEI disponibles.
+
+## Encuentra productos en Inventario
+
+Escribe o escanea el código en el buscador. Filtra por nombre, SKU o código de barras.
+
+## Registra códigos sin errores
+
+Abre el producto, pon el cursor en Código de Barras y escanea. El sistema guarda el código.
+
+Si el código ya pertenece a otro producto, ves un aviso con el nombre y evitas duplicados.
+
+Puedes editar el código de un producto existente. Antes ese cambio no se guardaba.
+
+Usa el botón # para crear un código provisional cuando el producto no trae uno de fábrica.
+
+## Imprime etiquetas para tus estantes
+
+Abre Inventario y pulsa Imprimir etiquetas. Elige cuántas copias quieres por producto.
+
+Pega cada etiqueta en su producto. Incluye nombre, barras y precio en RD$.
+
+## Cómo preparas tu Zebra
+
+Conecta la pistola por USB. Déjala en modo teclado (viene así de fábrica). Activa el Enter final con el manual del lector.
+
+Prueba: abre Bloc de notas y escanea. Debes ver el número y un salto de línea.
+
+## Límites de esta versión
+
+Las etiquetas usan formato Code39. La mayoría de lectores lo lee. Si tu distribuidora exige EAN-13 con dígito verificador, pide esa mejora.
+
+Revisa códigos duplicados antes de imprimir lotes grandes.
+
 
 # Actualización del Sistema - Version 1.5.0 - 23/09/2026
 
