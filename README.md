@@ -3,9 +3,15 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 
 
 
+# Actualización del Sistema - Version 1.5.5 - 01/10/2026
+
+- **Actualización silenciosa.
+
+
+
 # Actualización del Sistema - Version 1.5.4 - 01/10/2026
 
-**Actualización silenciosa.
+- **Actualización silenciosa.
 
 # Actualización del Sistema - Version 1.5.3 - 01/10/2026
 
