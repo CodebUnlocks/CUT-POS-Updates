@@ -3,6 +3,35 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 
 
 
+# Actualización del Sistema - Version 1.5.6 - 02/10/2026
+
+Etiquetas por producto, RNC con ITBIS y abonos en crédito.
+
+🏷️ Imprime solo lo que necesitas
+
+- **Icono barcode por fila:** en Inventario, junto a Editar y Eliminar, imprime la etiqueta de ese producto.
+- **Modal con nombre:** muestra el item, su código y precio antes de imprimir. Elige copias.
+- **Masiva intacta:** el botón general imprime la lista filtrada para la carga inicial.
+- **Sin código:** si el producto no tiene barras, usa el SKU y te avisa.
+
+🧾 RNC activa ITBIS
+
+- **En POS y reparaciones:** encender RNC enciende ITBIS (18%) solo. Apagar RNC conserva ITBIS como lo dejes.
+
+💰 Abonos en facturas a crédito
+
+- **Resumen Total/Abonado/Pendiente** con monto editable, método en dropdown, RNC y Recibido/Devuelta en efectivo.
+- **Menos que la deuda:** registra abono y resta. Lo digitado de más no entra a caja.
+- **Reparaciones y suplidores:** el sobrepago tampoco infla saldos ni caja.
+- **RNC guardado:** el comprobante fiscal queda en la factura y sale en el recibo.
+
+🖨️ Impresión nítida
+
+- **Sin cabecera basura:** se eliminó el texto extraño al inicio de las facturas.
+- **Negro sólido:** tickets en blanco y negro puro, sin fondos ni grises que la térmica tramaba.
+
+
+
 # Actualización del Sistema - Version 1.5.5 - 01/10/2026
 
 - **Actualización silenciosa.
