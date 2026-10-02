@@ -3,7 +3,7 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 
 
 
-# Actualización del Sistema - Version 1.5.6 - 02/10/2026
+# Actualización del Sistema - Version 1.5.6 - 00/10/2026
 
 Etiquetas por producto, RNC con ITBIS y abonos en crédito.
 
@@ -13,6 +13,7 @@ Etiquetas por producto, RNC con ITBIS y abonos en crédito.
 - **Modal con nombre:** muestra el item, su código y precio antes de imprimir. Elige copias.
 - **Masiva intacta:** el botón general imprime la lista filtrada para la carga inicial.
 - **Sin código:** si el producto no tiene barras, usa el SKU y te avisa.
+- **Zebra directa:** elige impresora y tamaño (25×13, 30×20, 40×30, 50×25, 100×50 o personalizado). Una etiqueta por página, envío silencioso, formato empresa / item / barras / precio.
 
 🧾 RNC activa ITBIS
 
@@ -28,8 +29,7 @@ Etiquetas por producto, RNC con ITBIS y abonos en crédito.
 🖨️ Impresión nítida
 
 - **Sin cabecera basura:** se eliminó el texto extraño al inicio de las facturas.
-- **Negro sólido:** tickets en blanco y negro puro, sin fondos ni grises que la térmica tramaba.
-
+- **Negro sólido:** tickets en blanco y negro puro, sin fondos ni grises que la térmica tramaba
 
 
 # Actualización del Sistema - Version 1.5.5 - 01/10/2026
