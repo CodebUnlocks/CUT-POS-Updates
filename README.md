@@ -3,6 +3,49 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 
 
 
+# Actualización del Sistema - Version 1.5.7 - 04/10/2026
+
+Impresión en caliente, cobro de cuentas por cobrar estilo entrega y etiquetas con vista previa.
+
+🖨️ Impresión silenciosa con selector en caliente
+
+- **Modal de impresora:** al imprimir sale un modal para elegir impresora, copias y tamaño (tickets 80/58mm, etiquetas, carta). Solo aparece si hay varias impresoras o no hay preferencia guardada.
+- **Recordar:** con "no volver a preguntar" imprime directo; al fallar muestra el motivo real y reintenta con diálogo.
+- **Todas las áreas:** ventas, facturas, reparaciones, cuadre de caja, movimientos y reportes.
+- **Silenciosa apagada por defecto:** se activa en Configuración si la quieres.
+
+💰 Cobro de cuentas por cobrar estilo entrega
+
+- **Registrar Pago en ventas:** desglose Subtotal/Abonado/Descuento/ITBIS/Total, RNC debajo del ITBIS, método arriba del recibido; sin campo monto redundante (efectivo manda lo recibido, tarjeta/transferencia con monto a cobrar para abonos).
+- **Nuevo pago de reparaciones:** modal espejo para abonar entregadas con deuda o pre-entrega, con Ver ticket e Imprimir al completar.
+- **Tras pagar:** pantalla de éxito con Imprimir; el abono parcial deja el detalle actualizado.
+- **Reparaciones a crédito** se cobran en su flujo (ya no por el de ventas).
+
+🏷️ Etiquetas mejoradas
+
+- **Vista previa:** 1 muestra por producto (3 si son varios) y mini-preview de etiqueta de taller con cliente/problema/orden.
+- **Código a 8 dígitos:** barras más grandes y legibles; se genera solo al crear/editar (botón #) y nunca queda vacío.
+- **30×20 completo:** modo compacto hasta 20mm de alto, ya no se recorta.
+
+🧾 ITBIS configurable y moneda estándar
+
+- **La tasa de Configuración ahora sí aplica:** POS, cobros, entrega, compras y tickets usan el % configurado (antes siempre 18% fijo).
+- **RNC autocompleta** el del cliente (editable) en cobros y entregas.
+- **RD$ 6,800.00** con separador de miles en todo el sistema.
+
+🔧 Correcciones
+
+- **Deuda $0.00 fantasma:** entregas con total $0 ya no borran la deuda; regla única `final_cost > 0` + reparación automática de filas inconsistentes al abrir.
+- **Edición de reparaciones:** sin duplicados ni datos inventados en seriales.
+- ** varios:** estado bloqueado en Ver (cambia en Editar/Imprimir), pago persistente entre facturas corregido, dropdowns con flecha única, sin flechas en numéricos, tarjeta activa ITBIS.
+
+🧪 Datos de prueba realistas
+
+- **Limpiar + Cargar** desde Configuración: 12 clientes (RNC/crédito), 10 suplidores, 14 productos con IMEI, 12 reparaciones con piezas y totales reales (parciales visibles en Cuentas por Cobrar), 10 ventas a crédito y 10 compras.
+
+
+
+
 # Actualización del Sistema - Version 1.5.6 - 00/10/2026
 
 Etiquetas por producto, RNC con ITBIS y abonos en crédito.
