@@ -3,6 +3,38 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 
 
 
+# Actualización del Sistema - Version 1.6.0 - 05/10/2026
+
+Doble verificación con contraseña en acciones destructivas y etiquetas de taller en 30×20.
+
+🔐 Seguridad en Configuración
+
+- **Contraseña obligatoria:** limpiar la base oficial o restaurar un backup pide primero la contraseña del administrador y luego la confirmación de peligro. Sin la clave no se ejecuta nada.
+- **Verificación con bcrypt** contra el admin en sesión; la clave nunca se guarda ni sale del modal.
+
+🏷️ Etiquetas de reparación 30×20
+
+- **Ya no salen en blanco:** la etiqueta de taller usa el tamaño elegido (default 30×20) y envía `pageSize` explícito al driver, igual que inventario.
+- **Modo compacto** en etiquetas chicas (alto ≤20mm) para que cliente/problema/orden no se recorten.
+
+
+
+
+# Actualización del Sistema - Version 1.5.9 - 05/10/2026
+
+Corrige la persistencia de la información de la empresa en Configuración.
+
+🏢 Configuración de la empresa
+
+- **Los datos ya no se borran:** al abrir Configuración se cargan los valores guardados (el 1.5.8 había roto la carga y mostraba defaults).
+- **Guardar sin pisar:** cada formulario fusiona con lo guardado — editar impuestos ya no borra nombre/dirección/teléfono ni viceversa.
+- **Logo robusto:** ya no se guarda `"null"` como texto; valores `"null"`/`"undefined"` previos se ignoran al cargar.
+- **Facturas con encabezado siempre:** las dos copias/impresiones consecutivas salen con nombre, dirección, teléfono y logo.
+
+> Nota: si el 1.5.8 pisó tus datos con los valores por defecto, reingrésalos una vez — con este fix ya persistirán.
+
+
+
 
 # Actualización del Sistema - Version 1.5.8 - 05/10/2026
 
