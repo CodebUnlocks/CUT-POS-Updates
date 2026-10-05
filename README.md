@@ -3,6 +3,42 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 
 
 
+
+# Actualización del Sistema - Version 1.5.8 - 05/10/2026
+
+Totales unificados, impresión con diálogo del sistema y control de estados con reembolso.
+
+🧾 Impresión con diálogo del sistema
+
+- **Adiós a la impresión silenciosa en tickets:** ventas, facturas, reparaciones (simple y doble cliente+taller), cuadre de caja, movimientos y reportes imprimen con el diálogo del sistema. La silenciosa queda **solo para etiquetas**.
+- **Ticket doble reparado:** la 2ª copia (taller) ya no sale mini/pálida — `@page` correcto, anchos con `box-sizing` y corte con salto de página.
+- **Se elimina de Configuración** la sección de impresora silenciosa de tickets.
+
+💰 Totales y deudas unificados (fórmula canónica)
+
+- **Una sola fórmula en todo el sistema:** `final_cost > 0 ? final_cost : mano+repuestos+ITBIS−descuento`, pendiente = total − abono. Aplica a lista, detalle, dashboard, CxC y reportes.
+- **Deuda fantasma eliminada:** el detalle ya no muestra 2.500 cuando debe 3.074; la tarjeta muestra el total y la deuda real.
+- **Factura siempre fresca:** los pagos devuelven la orden actualizada y el ticket se reconstruye con refetch antes de imprimir.
+- **Caja obligatoria para cobrar** ventas a crédito (igual que reparaciones).
+
+🔄 Estados, reapertura y cancelación con reembolso
+
+- **Cambio de estado desde la orden:** Recibido → Diagnóstico → Pendiente Repuestos → En Reparación → Completado.
+- **Entregado solo vía Factura Final:** el cambio directo queda bloqueado.
+- **Reabrir entregada** con motivo obligatorio (queda en notas e historial); vuelve a Completado conservando pagos.
+- **Cancelar con reembolso:** devuelve abonos (retiro de caja), restaura stock de repuestos y sale de CxC. Con caja cerrada avisa.
+
+🔧 Correcciones
+
+- **Entrega ya no cobra de más** tras 2+ abonos (usa depósito acumulado) ni resetea ITBIS/descuento previos.
+- **Edición bloqueada** en costos/repuestos de órdenes entregadas o canceladas.
+- **Registro antes de imprimir** en movimientos de caja y ventas con número definitivo.
+- **Backfill ITBIS:** entregadas con impuesto no incluido en el total se corrigen solas al abrir.
+
+
+
+
+
 # Actualización del Sistema - Version 1.5.7 - 04/10/2026
 
 Impresión en caliente, cobro de cuentas por cobrar estilo entrega y etiquetas con vista previa.
