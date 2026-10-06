@@ -3,6 +3,41 @@ Actualizaciones para [CUT] Sistema de Gestion de Punto de Ventas y Taller de Rep
 
 
 
+# Actualización del Sistema - Version 1.6.1 - 06/10/2026
+
+Auditoría completa: caja, stock, cancelaciones, seguridad y códigos de barras.
+
+💰 Ventas y caja
+
+- **Venta exige caja abierta** y recalcula totales en el servidor (ya no confía en el frontend).
+- **Sin stock negativo:** descuentos atómicos con validación; los servicios no descuentan inventario.
+- **Factura única** con reintento automático ante choques de numeración.
+- **Abono inicial a crédito** en efectivo entra a caja (antes se perdía).
+- **Cierre sin doble conteo:** los abonos de reparación cuentan una sola vez.
+- **Anular venta** revierte stock, unidades serializadas y pagos (con retiro de caja). Re-anular queda bloqueado.
+
+📦 Compras e inventario
+
+- **Pagado real:** recibida ya no significa pagada; costo promedio ponderado en vez del último lote.
+- **Un solo registro por pago** a suplidor (caja o chica, antes se duplicaba).
+- **Cancelar compra revierte stock**; edición de producto deja kardex y valida precios.
+- **Borrados con dependencias:** productos, clientes, suplidores y categorías avisan si están en uso.
+
+🔐 Seguridad y control
+
+- **Roles en backend:** IPC destructivos y gestión de usuarios solo admin (con bootstrap del primer usuario, anti auto-bloqueo y anti último-admin).
+- **Contraseña mínimo 8** (backend + modal de usuarios).
+- **Ruta /settings** con guardia; restore valida SQLite + integridad con reversión.
+- **Caja chica** valida fondos y datos; seeds idempotentes sin tocar aperturas reales.
+
+🏷️ Códigos de barras verificados
+
+- **Tabla Code39 corregida** contra la especificación (letras y `+` estaban mal) con verificación estructural automatizada.
+- Anti doble-venta (botón bloqueado + revalidación de caja), pago oculto en canceladas, dashboard "hoy" real, reportes sin canceladas.
+
+
+
+
 # Actualización del Sistema - Version 1.6.0 - 05/10/2026
 
 Doble verificación con contraseña en acciones destructivas y etiquetas de taller en 30×20.
