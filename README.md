@@ -2,6 +2,17 @@
 Actualizaciones para [CUTPOS] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.6.2 - 06/10/2026
+
+Corrige la entrega de órdenes saldadas.
+
+✅ Entrega sin deuda
+
+- **Confirmar habilitado con Total a Pagar $0.00:** las órdenes totalmente abonadas se pueden entregar en efectivo, tarjeta o transferencia sin ingresar monto.
+- El monto solo se exige cuando hay pendiente (parcial o total).
+
+
+
 
 # Actualización del Sistema - Version 1.6.1 - 06/10/2026
 
