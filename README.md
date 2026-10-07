@@ -2,6 +2,35 @@
 Actualizaciones para [CUTPOS] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 
+# Actualización del Sistema - Version 1.6.3 - 07/10/2026
+
+Dashboard con Resumen Financiero, modales estandarizados y confirmaciones previas.
+
+📊 Resumen Financiero (dashboard)
+
+- **Gráficas de por vida:** ingresos diarios (columnas) y mensuales (líneas) por total cobrado, sin reiniciarse al cerrar caja.
+- **Donas:** stock (bajo/existente/agotado) y global por unidades (ventas/reparaciones/CxC/stock).
+- **Panel derecho unificado:** Ventas, Reparaciones, Facturas a Crédito (con trigger de vencidas/7-días y conteos siempre visibles) y Stock al final.
+
+🎨 Modales estandarizados
+
+- **Botón Cerrar/Cancelar único:** rojo translúcido → rojo sólido en hover, en todo el sistema.
+- **Tarjetas compactas** en pagos y confirmaciones; X de cierre en todos los modales.
+- **Primitiva Modal compartida** (overlay, tamaños, header, footer).
+
+✅ Confirmaciones previas
+
+- **Cambio de estado**, **Marcar Recibido**, **abrir** y **cerrar caja** piden confirmación antes de ejecutar.
+
+🔧 Correcciones
+
+- Barra de búsqueda en Reparaciones (el filtro ya no la aplasta).
+- Botón Imprimir de etiquetas con tamaño y esquinas correctos.
+
+
+
+
+
 # Actualización del Sistema - Version 1.6.2 - 06/10/2026
 
 Corrige la entrega de órdenes saldadas.
