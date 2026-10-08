@@ -1,7 +1,6 @@
-# Actualizaciones para [CUTPOS] Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
+# Actualizaciones para [CUTPOS].
 
-
-# CUTPOS Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
+# Sistema de Gestion de Punto de Ventas y Taller de Reparaciones.
 
 **CUTPOS** es un sistema de gestión robusto diseñado para negocios que combinan la venta al detalle con un taller de servicios técnicos o reparaciones. Construido con Electron y React, ofrece una solución rápida, local y confiable para las operaciones diarias.
 
