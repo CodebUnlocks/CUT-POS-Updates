@@ -40,7 +40,7 @@
 - **Análisis Financiero**: Seguimiento de ingresos, impuestos y métodos de pago en rangos de fechas personalizados.
 
 ### 🔐 Acceso Basado en Roles
-- **El sistema soporta múltiples roles de usuario con diferentes permisos:
+- **El sistema**: soporta múltiples roles de usuario con diferentes permisos:
 - **Admin**: Acceso total a todas las funciones, incluyendo configuración del sistema y registros.
 - **Manager**: Acceso a reportes, inventario y ventas.
 - **Cajero**: Acceso optimizado para operaciones de POS y caja.
